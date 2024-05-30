@@ -1,0 +1,11 @@
+{
+	"name": "Node.js & TypeScript",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bullseye",
+	"features": {
+		"ghcr.io/lujunji4113/features/deno": {}
+	},
+	"remoteEnv": {
+		"HTTP_PROXY": "http://host.docker.internal:7890",
+		"HTTPS_PROXY": "http://host.docker.internal:7890"
+	}
+}
